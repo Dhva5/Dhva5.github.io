@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Worldent</title>
+        <script src="homejs.js"></script>
+        <script src="loginjs.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="homecss.css">
+       <link rel="stylesheet" href="logincss.css">
+        <link rel="icon" href="logo1.png" type="icon">
+    </head>
+    <body>link
+
+<div class="topnav" id="myTopnav">
+  <a href="#home"><i class='fas fa-home'></i> Home</a>
+  <a href="#contact"><i class='fas fa-envelope'></i> Contact</a>
+  <a href="#about"><i class='fas fa-user'></i> About Us</a>
+  <!--Login pop up-->
+  <a href="#id01" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fas fa-sign-in-alt"></i> Login</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!--Login Form-->
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="logowithname.jpeg" alt="Avatar" class="logowithname">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Mobile Number</b></label>
+      <input type="text" placeholder="Enter Mobile Number" name="uname" required>
+      <br>
+      <hr>
+      
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button class="button" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Keep me signed in .
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<!--Login Form-->
+    </body>
+</html>
