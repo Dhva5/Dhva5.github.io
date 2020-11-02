@@ -1,7 +1,7 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
-input[type=number], input[type=password] {
+input[type=number], input[type=text],  input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -91,9 +91,8 @@ span.psw {
 
 /* The Close Button (x) */
 .close {
-  position: absolute;
+ 
   right: 25px;
-  top: 0;
   color: #000;
   font-size: 35px;
   font-weight: bold;
@@ -127,4 +126,12 @@ span.psw {
      display: block;
      float: none;
   }
+}
+.signup {
+  text-align: center;
+  font-weight: 200;
+ 
+}
+.signup a:hover {
+    cursor: pointer;
 }
