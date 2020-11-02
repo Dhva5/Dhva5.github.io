@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded') = function() {
+document.addEventListener('DOMContentLoaded', function(){
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -7,4 +7,4 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-}
+})
