@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded') = function() {
+document.addEventListener('DOMContentLoaded', function() { 
 var modal = document.getElementById('id011');
 
 // When the user clicks anywhere outside of the modal, close it
@@ -7,4 +7,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-}
+})
