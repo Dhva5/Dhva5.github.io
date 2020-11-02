@@ -2,6 +2,7 @@
 .topnav {
     background-color: #1AA7DC;
     overflow: hidden;
+    width: 100%;
   }
   .topnav a:active {
     background-color: #4CC0BF;
